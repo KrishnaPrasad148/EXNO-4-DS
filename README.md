@@ -103,7 +103,7 @@ from sklearn.metrics import accuracy_score, confusion_matrix
 data=pd.read_csv("/content/income(1) (1).csv",na_values=[ " ?"])
 data
 ```
-![Screenshot 2024-10-03 085837](https://github.com/user-attachments/assets/b093f650-27ba-4e4d-bf57-6b97d806c26a)
+![Screenshot 2024-10-03 100306](https://github.com/user-attachments/assets/cc8e605f-3663-4216-aed1-4c50f2cfeb30)
 
 ```
 data.isnull().sum()
