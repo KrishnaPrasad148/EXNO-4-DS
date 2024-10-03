@@ -114,13 +114,13 @@ data.isnull().sum()
 missing=data[data.isnull().any(axis=1)]
 missing
 ```
-![Screenshot 2024-10-03 090042](https://github.com/user-attachments/assets/b7966a24-b8cb-405a-9d10-2b74b3aa05b6)
+![Screenshot 2024-10-03 100509](https://github.com/user-attachments/assets/d5d11c0d-43e0-4e7b-8550-0be0d8c7ab83)
 
 ```
 data2=data.dropna(axis=0)
 data2
 ```
-![Screenshot 2024-10-03 090129](https://github.com/user-attachments/assets/98ff7d1d-b43e-449b-871e-c3fdcc7b88ff)
+![Screenshot 2024-10-03 100522](https://github.com/user-attachments/assets/acd7cb7e-b6cb-49b6-9872-c04208173d68)
 
 ```
 sal=data["SalStat"]
@@ -142,9 +142,9 @@ dfs
 new_data=pd.get_dummies(data2, drop_first=True)
 new_data
 ```
-![Screenshot 2024-10-03 090331](https://github.com/user-attachments/assets/5aa8313c-c545-467e-934b-818231a1b63d)
+![Screenshot 2024-10-03 100624](https://github.com/user-attachments/assets/d323f497-d8d8-40dd-92a7-de5808d061e7)
 
-![Screenshot 2024-10-03 090331](https://github.com/user-attachments/assets/4176e43a-4559-4457-812f-bb2e471569c1)
+![Screenshot 2024-10-03 100639](https://github.com/user-attachments/assets/3a2dbc84-05d5-4b64-a317-e3cba4b3efc1)
 
 
 ```
